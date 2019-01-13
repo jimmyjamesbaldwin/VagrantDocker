@@ -5,7 +5,7 @@ A Hello World application served by Nginx inside a Docker container on Alpine li
 #### Clone repo
 ```
 git clone https://github.com/jimmyjamesbaldwin/VagrantDocker.git
-cd repo
+cd VagrantDocker
 ```
 
 #### Generate certs
