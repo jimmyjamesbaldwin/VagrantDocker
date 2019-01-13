@@ -1,5 +1,5 @@
 # VagrantDocker
-A Hello World application inside a Docker container on Alpine linux, running inside a VM built by Vagrant, configured by Ansible, tested using testinfra.
+A Hello World application served by Nginx inside a Docker container on Alpine linux, running inside a VM built by Vagrant, configured by Ansible, tested using testinfra.
 
 ## Building
 #### Clone repo
@@ -22,6 +22,7 @@ vagrant up
 
 ## Accessing the site
 The VM IP is currently set in `Vagrantfile`; head to `http://192.168.1.33` and see the glory for yourself. To prevent people stealing your bananas, you can also use `https://192.168.1.33`, although you'll get warnings as the certificate is self-signed.
+
 ![Alt Text](https://media.giphy.com/media/2kUszZfHe3xvYX5TWR/giphy.gif)
 
 
